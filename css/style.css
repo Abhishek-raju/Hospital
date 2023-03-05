@@ -173,8 +173,13 @@ p{
 .card{
     border-radius: .625rem;
     background-color: var(--bg-white);
-    box-shadow: .;
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgba(0 0 0 / 8%);
+    padding: 3.75rem 3.125rem 4.6875rem;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    border: 0;
 }
+
 
 /*  2 Navbar  */
 
