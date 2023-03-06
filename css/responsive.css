@@ -6,6 +6,17 @@
     }
 
     /*  Header  */
+    .header_wrapper .navbar-nav .nav-link{
+        font-size: 1rem;
+    }
+
+    .banner_wrapper .animate-img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(45%);
+        z-index:22;
+    }
 
 
     /*  Top banner  */
@@ -62,9 +73,27 @@
     }
     /*  Header  */
 
+    .banner_wrapper .animate-img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(20%);
+        z-index:22;
+    }
 
+    
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    
+    /* .header_wrapper .menu-navbar-nav .nav-link{
+        margin-top: 0.9375rem;
+    } */
+    
     /*  Top banner  */
-
+    .banner_wrapper p{
+        width: 100%
+    }
 
     /*  About  */
 
@@ -77,6 +106,13 @@
 @media (max-width:767px) {
     
     /* Custom CSS */
+    .banner_wrapper .animate-img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(20%);
+        z-index:22;
+    }
 
     /* Service */
 
@@ -88,6 +124,7 @@
 @media (max-width:360px) {
     
     /* Banner */
+
 
    /* About */
 
