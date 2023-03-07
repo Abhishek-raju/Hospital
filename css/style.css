@@ -331,7 +331,7 @@ p{
 
 .services_wrapper .card{
     background: tranaparent;
-    border: 0.0625rem solid var(--bg-light-blue);
+    border: 0.0625rem solid var(--text-light);
     box-shadow: none;
     padding: 2.5rem;
 }
@@ -351,11 +351,50 @@ p{
     margin-bottom: 1.875rem;
 }
 
-/* .services_wrapper .card a{
-    border: 0.1rem solid var(--secondary-color);
-} */
+.services_wrapper .card a{
+    border: 0.1rem solid var(--text-light);
+}
+
+
 /*  6 Teams  */
 
+.team_wrapper .card{
+    padding: 1.25rem;
+}
+
+.team_wrapper .card:hover{
+    transform: translateY(-0.625rem);
+}
+
+.team_wrapper .team-img{
+    margin: 0 auto;
+}
+
+.team_wrapper .team-info .social-network{
+    transition: all 0.3s ease-in-out;
+    padding: 0.625rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_wrapper .team-info .social-network li a{
+    width: 1.5625rem;
+    height: 1.5625rem;
+    line-height: 1.5236rem;
+    display: block;
+    border-radius: .3125rem;
+    margin: 0 .3125rem;
+    font-size: .75rem;
+    background-color:var(--bg-dark);
+    color: var(--text-white);
+    transition: all .3s ease;
+}
+
+.team_wrapper .team-info .social-network li a:hover{
+    background-color: var(--secondary-color);
+}
 
 /*  7 Gallery  */
 
