@@ -398,6 +398,16 @@ p{
 
 /*  7 Gallery  */
 
+.gallery_wrapper{
+    background-image: url(../images/gallery/gallery-background.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+.gallery_wrapper img{
+    border-radius: .9375rem;
+}
 
 /*  8 Testimonial  */
 
